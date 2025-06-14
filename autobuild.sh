@@ -84,7 +84,12 @@ EOF
 sudo ydotool mousemove 1920 1080
 
 # Launch the application
-$APP_PATH
+
+if [[ "$APP_PATH" == *.exe ]]; then
+    wine "$APP_PATH"
+else
+    "$APP_PATH"
+fi
 
 # If the application exits, restart it after a short delay
 sleep 1.0
