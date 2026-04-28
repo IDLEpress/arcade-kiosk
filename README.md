@@ -8,7 +8,7 @@ This project is based on the [arcade-build](https://github.com/lazzarello/arcade
 
 Our implementation removes the Snap Store dependency from the setup process but requires the operator to manually install the game prior to running the `autobuild.sh` script. Additionally if the developer updates the game, the arcade operator will need to manually update the game on the cabinet PC.
 
-You can find the latest/complete documentation for the project at [IDLE Press Arcade](https://rocket5.ca/idlepressarcade/).
+You can find the latest/complete documentation for the project at [IDLE Press Arcade](https://IDLEpress/idlepressarcade/).
 
 ## Prerequisites
 
