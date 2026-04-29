@@ -117,6 +117,16 @@ A feature that might be useful for arcade opperators is [Landscape](https://ubun
 
 4. Exit operator mode to return to kiosk mode
 
+### Update the Application Location/Name
+1. Enter operator mode: Press ctrl + alt + F3 followed by the Enter key
+2. Edit the kiosk script in termial
+
+   ```bash
+   nano ~/.local/bin/gnome-kiosk-script
+   ```
+3. Ctrl+o to save, Enter to confirm save, Ctrl+x to exit
+4. Verify with cat ~/.local/bin.gnome-kiosk-script
+
 ### System Updates
 
 System updates are disabled by default by the `autobuild.sh` script. To perform system updates:
